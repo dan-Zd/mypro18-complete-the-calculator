@@ -1,0 +1,142 @@
+* {
+　  box-sizing: content-box;
+　　-moz-box-sizing: inherit;
+　　-webkit-box-sizing: inherit;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	margin: 80px auto;
+	padding-top: 50px;
+}
+.calculator{
+	width: 400px;
+	height: 400px;
+	background: #ddd;
+	border-radius: 8px;
+	box-shadow: 2px 2px 3px #c1bdbd,-2px -2px 3px #c1bdbd;
+	margin:auto;
+	padding-top: 35px;
+}
+.cal-text{
+	width: 360px;
+	height: 50px;
+	margin: auto;
+}
+.cal-text input{
+	width: 336px;
+	height: 50px;
+	background: #fff;
+	border:1px solid #333;
+	border-radius: 8px;
+	outline: none;
+	text-align: right;
+	padding-right: 20px;
+}
+.cal-btn1{
+	width: 360px;
+	height: 30px;
+	margin:20px auto;
+}
+.cal-btn1 button{
+	width: 65px;
+	width: 68px \9;
+	height: 30px;
+	border:1px solid #333;
+	border-radius: 5px;
+}
+.cal-btn2{
+	width: 360px;
+	height: 35px;
+	margin: auto;
+	margin-top: -3px;
+}
+.cal-btn2 .sin,.cos{
+	width: 137px;
+	width: 140px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+}
+.cal-btn2 .tan{
+	width: 65px;
+	width: 67px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+}
+.cal-btn3{
+	width: 360px;
+	height: 35px;
+	margin:15px auto;
+}
+.cal-btn3 button{
+	width: 65px;
+	width: 68px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+	background: #fff;
+}
+.cal-btn4{
+	width: 360px;
+	height: 35px;
+	margin:15px auto;
+}
+.cal-btn4 button{
+	width: 65px;
+	width: 68px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+	background: #fff;
+}
+.cal-btn5{
+	width: 360px;
+	height: 35px;
+	margin:15px auto;
+}
+.cal-btn5 button{
+	width: 65px;
+	width: 68px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+	background: #fff;
+}
+.cal-btn6{
+	width: 360px;
+	height: 35px;
+	margin:15px auto;
+}
+.cal-btn6 button{
+	width: 65px;
+	width: 68px \9;
+	height: 35px;
+	border:1px solid #333;
+	border-radius: 5px;
+	background: #fff;
+}
+.cal-btn6 .zero{
+	width: 137px;
+	width: 140px \9;
+	height: 35px;
+}
+
+.equ .equal{
+	width: 65px;
+	height: 85px;
+	margin-left: 313px;
+	margin-left: 310px \9;
+	margin-top: -100px;
+	position: absolute;
+	border:1px solid #333;
+	border-radius: 5px;
+}
+.calculator .bun{
+	background: rgba(230, 228, 227, 0.68);
+}
+.calculator button{
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>完整计算器</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    	<div class="calculator" id="cal">
+    	   <!-- 文本框 -->
+    		<div class="cal-text" id="cal_text">
+    			<input type="text" name="show" id="txt" readonly >
+    		</div>
+            <!-- 第一行 -->
+    		<div class="cal-btn1" id="cal_btn1">
+    			<button  value="开机" class="_btn">开机</button>
+    			<button  value="关机" class="_btn">关机</button>
+    			<button  value="清屏" class="_btn">清屏</button>
+    			<button class="bun _btn" value="log" >log</button>
+    			<button class="bun _btn" value="power">power</button>
+    		</div>
+    		<!-- 第二行 -->
+    		<div class="cal-btn2" id="cal_btn2">
+    			<button class="bun sin _btn" value="sin">sin</button>
+    			<button class="bun cos _btn"  value="cos">cos</button>
+    			<button class="bun tan _btn"  value="tan">tan</button>
+    		</div>
+    		<!-- 第三行 -->
+    		<div class="cal-btn3" id="cal_btn3">
+    			<button value="7" class="num">7</button>
+    			<button  value="8" class="num">8</button>
+    			<button  value="9" class="num">9</button>
+    			<button class="bun _oper"  value="/">/</button>
+    			<button class="bun _oper"  value="%">%</button>
+    		</div>
+    		<!-- 第四行 -->
+    		<div class="cal-btn4" id="cal_btn4">
+    			<button  value="4" class="num">4</button>
+    			<button  value="5" class="num">5</button>
+    			<button  value="6" class="num">6</button>
+    			<button class="bun _oper" value="*">*</button>
+    			<button class="bun _btn" value="√">√</button>
+    		</div>
+    		<!-- 第五行 -->
+    		<div class="cal-btn5" id="cal_btn5">
+    			<button value="1" class="num">1</button>
+    			<button value="2" class="num">2</button>
+    			<button  value="3" class="num">3</button>
+    			<button id="minus" class="bun _oper" value="-" >-</button>
+    		</div>
+    		<!-- 第六行 -->
+    		<div class="cal-btn6" id="cal_btn6">
+    			<button class="num zero" value="0">0</button>
+    			<button class="num point" value=".">.</button>
+    			<button class="bun plus _oper" value="+">+</button>
+    		</div>
+    		<div class="equ">
+    			<button id="_equal" class="bun equal"  value="=">=</button>
+    		</div>
+
+    	</div
+    </div>
+<script src="js/demo.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
